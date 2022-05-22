@@ -1,0 +1,86 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.inputForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:10%;
+    background-image: linear-gradient(#2193b0 , #6dd5ed);
+    padding: 100px;
+}
+
+.inputWrapper {
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+
+.input{
+    box-shadow: 0 0 10px -5px rgba(0, 0, 0);
+    background-color : white;
+    padding: 10px;  
+}
+
+.inputItemsField {
+    padding : 5px;
+}
+
+.login {
+    text-decoration: none;
+    font-weight: bold;
+    font-size:25px;
+    color: white;
+    margin: 5px;
+}
+
+.inputItems {
+    display: flex;
+    justify-content:space-between;
+    background-color: black;
+    padding: 5px;
+}
+
+.inputCon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding : 15px;
+    gap: 20px;
+}
+
+.inputBtn {
+    display: flex;
+    justify-content:center;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.btn {
+    padding: 10px;
+    font-size: 17px;
+    width:70%;
+    background-color:rgb(93, 74, 180);
+    color: white;
+    border: none;
+}
+
+.loginActive{
+    background-color: gold;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size:25px;
+    margin: 5px;
+}
+
+.loginActive:hover{
+    background-color: gold;
+    color: rgb(93, 74, 180);
+    text-decoration: none;
+    font-weight: bold;
+    font-size:25px;
+    margin: 5px;
+}

@@ -1,0 +1,30 @@
+.conta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.box {
+    width: 30%;
+    border: 2px solid green;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titleName {
+    font-weight: bold;
+    font-size:20px;
+}
+
+.noItem{
+    margin-top: 55%;
+}
+
+.todoBox {
+    width: 30%;
+    border: 2px solid rgb(15, 162, 15);
+    color: white;
+}
